@@ -90,3 +90,8 @@ Model summary: [model-generated summary]
 ## 🔗 Key Concepts & Formulas
 - **Scaled Dot-Product Attention:** `Attention(Q,K,V) = softmax((Q·K^T)/√dk + M)·V`
 - **Multi-Head Attention:** Concatenation of multiple attention heads, each learning different patterns.
+
+- **Positional Encoding:** `PE(pos, 2i) = sin(pos/10000^(2i/d_model))`, `PE(pos, 2i+1) = cos(pos/10000^(2i/d_model))`
+- **Residual Connections:** `x + sublayer(x)` to avoid vanishing gradients.
+- **Layer Normalization:** Normalizes across features for training stability.
+- **Learning Rate Schedule:** `lr = 1/√d_model * min(1/√step, step * warmup_steps^(-1.5))`
