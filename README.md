@@ -82,3 +82,7 @@ Model summary: amanda bakes cookies and offers will some.
 Dialogue: [dialogue about travel plans]
 Human summary: [human-written summary]
 Model summary: [model-generated summary]
+
+**Loss Convergence:**
+- Loss decreased steadily from ~8.5 to ~0.8 over 20 epochs.
+- Training time: ~30 seconds per epoch.
