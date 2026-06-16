@@ -73,3 +73,6 @@ To avoid `Grader Error: Grader feedback not found` or similar unexpected errors 
 ### Sample Output
 **Training Set Example:**
 
+Dialogue: amanda: I baked cookies. will: Okay. amanda: Do you want some? will: Sure, thank you.
+Human summary: amanda bakes cookies and offers will some.
+Model summary: amanda bakes cookies and offers will some.
