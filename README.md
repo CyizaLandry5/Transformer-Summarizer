@@ -95,3 +95,8 @@ Model summary: [model-generated summary]
 - **Residual Connections:** `x + sublayer(x)` to avoid vanishing gradients.
 - **Layer Normalization:** Normalizes across features for training stability.
 - **Learning Rate Schedule:** `lr = 1/√d_model * min(1/√step, step * warmup_steps^(-1.5))`
+
+## 📚 Acknowledgments
+This assignment was completed as part of the Natural Language Processing specialization on **DeepLearning.AI**. The transformer architecture follows the original paper "Attention Is All You Need" (Vaswani et al., 2017), with practical adaptations for text summarization on dialogue data.
+
+---
