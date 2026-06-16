@@ -86,3 +86,7 @@ Model summary: [model-generated summary]
 **Loss Convergence:**
 - Loss decreased steadily from ~8.5 to ~0.8 over 20 epochs.
 - Training time: ~30 seconds per epoch.
+
+## 🔗 Key Concepts & Formulas
+- **Scaled Dot-Product Attention:** `Attention(Q,K,V) = softmax((Q·K^T)/√dk + M)·V`
+- **Multi-Head Attention:** Concatenation of multiple attention heads, each learning different patterns.
